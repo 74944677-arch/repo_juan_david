@@ -6,3 +6,9 @@ print("tangamandapio")
 
 p {
     color: cornflowerblue;
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: cornflowerblue;
