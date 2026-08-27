@@ -11,4 +11,4 @@ p {
 }
 
 p {
-    color: cornflowerblue;
+    color: cornflowerbue
