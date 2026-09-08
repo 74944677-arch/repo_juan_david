@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="57QnQhTtzU9Hrkru-tyR">
+    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-38" edge="1" parent="1" source="q7awL-K7_2GFc_BnJ2fn-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="q7awL-K7_2GFc_BnJ2fn-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;b&gt;ESTUDIANTE&amp;nbsp;&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ID_ESTUDIANTE PK&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;NOMBRE&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;TELEFONO&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="300" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-40" edge="1" parent="1" source="q7awL-K7_2GFc_BnJ2fn-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q7awL-K7_2GFc_BnJ2fn-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;&lt;b&gt;CURSO&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;&quot;&gt;ID_curso PK&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;nomre&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;costo&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="300" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-39" edge="1" parent="1" source="q7awL-K7_2GFc_BnJ2fn-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="q7awL-K7_2GFc_BnJ2fn-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;MATRICULA&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ID_matricula PK&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;fecha&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;estado&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ID_estudiante FK&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;ID_curso FK&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="300" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;MATRICULA&lt;/b&gt;&lt;/div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ID_instructor PK&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;nombre&lt;/span&gt;&lt;/li&gt;&lt;li&gt;telefon&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="300" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-42" edge="1" parent="1" source="q7awL-K7_2GFc_BnJ2fn-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="INSTRUCTOR&lt;div&gt;1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-44" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="330" as="sourcePoint" />
+            <mxPoint x="600" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N&lt;br&gt;&lt;div&gt;CURSO&lt;/div&gt;&lt;div&gt;1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-46" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="470" as="sourcePoint" />
+            <mxPoint x="600" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N&lt;div&gt;MATRICULA&lt;/div&gt;&lt;div&gt;N&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1&lt;div&gt;ESTUDIANTE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="570" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="DICTA" vertex="1">
+          <mxGeometry height="30" width="60" x="600" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TIENE" vertex="1">
+          <mxGeometry height="30" width="60" x="600" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="q7awL-K7_2GFc_BnJ2fn-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PERTENECE" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
